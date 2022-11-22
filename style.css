@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+}
+body{
+    text-align: center;
+    color: hsl(240, 83%, 25%);
+    padding: 20px;
+
+
+}
+.section1{
+    padding: 10px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 0.5px solid black;
+}
+.logo{
+    width: 30px;
+}
+.links{
+    margin-right: 20px;
+    color: hsl(240, 83%, 25%);
+}
+.buttons{
+    padding: 20px;
+}
+.login{
+    margin-left: 10px;
+    background-color: hsl(240, 83%, 25%);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all .5s;
+}
+.paypalbusiness{
+    margin-top: 20px;
+}
+.paypalmadeeasy{
+    margin-top: 20px;
+}
+.signup{
+    color:white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:hsl(240, 83%, 25%);
+    transition: all .5s;
+}
+.section4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login1{
+    margin-left: 10px;
+    border:2px solid hsl(240, 83%, 25%);
+    color: hsl(240, 83%, 25%);
+    border-radius: 20px;
+    padding: 8px 16px;
+    transition: all .5s;
+}
+.contactsales{
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:2px solid hsl(240, 83%, 25%);
+    color: hsl(240, 83%, 25%);
+    transition: all .5s;
+}
+.contactsales:hover, .login1:hover {
+    color:white;
+    background-color:hsl(240, 83%, 25%);
+
+}
+.signup:hover, .login:hover {
+    color: hsl(240, 83%, 25%);
+    background-color: white;
+}
+    span{
+        color: blue;
+    }
